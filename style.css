@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto {
+    color: white;
+}
+
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(assets/logo_inteli.jpg);
+    background-size: cover;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+}
+
